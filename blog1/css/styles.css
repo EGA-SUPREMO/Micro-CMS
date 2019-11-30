@@ -1,0 +1,149 @@
+.navbar {
+    background-color: #2B2B2B !important;
+}
+#lolol, #ele {
+    background-color: #2B2B2B !important;
+}
+.navbar-brand:link, .navbar-brand:visited {
+    color: deepskyblue !important;
+}
+.navbar-brand:hover, .navbar-brand:active {
+    color: white !important;
+}
+.navbar li a:link, .navbar li a:visited {
+    color: white !important;
+}
+.navbar li a:hover, .navbar li a:active {
+    color: deepskyblue !important;
+}
+body{
+    background-image: url('../img/white-waves.png');
+}
+.jumbotron{
+   background-color: deepskyblue !important;
+   color: white !important;
+}
+.card-header{
+   background-color: deepskyblue !important;
+   color: white;
+}
+.card-body{
+    color: #2b2b2b !important;
+}
+.content-article, .profile {
+    background-color: white;
+    padding: 2em;
+}
+.btn-primary {
+    background-color: deepskyblue !important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2b2b2b !important;
+}
+
+.sidebar {
+  background-color: white !important;
+}
+
+.sidebar, .gg-element {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.gg-element:hover {
+  background-color: #2b2b2b !important;
+  color: deepskyblue !important;
+}
+
+.gg-element {
+  color: white !important;
+}
+
+#gg-entries {
+  background-color: deepskyblue;
+}
+
+#gg-comments {
+  background-color: #029ac4;
+}
+
+#gg-favorites {
+  background-color: #394a66;
+}
+
+.entries-gestor-part {
+  color: white;
+  background-color: deepskyblue !important;
+}
+
+.table-striped>thead>tr:nth-child(odd)>td,
+.table-striped>thead>tr:nth-child(odd)>th {
+  background-color: deepskyblue !important;
+}
+
+.table-striped>tbody>tr>td {
+  border: none;
+}
+
+tbody:before {
+  content: "-";
+  display: block;
+  line-height: 2em;
+  color: transparent !importants;
+}
+
+.table-striped>thead>tr>th {
+  border: nones;
+}
+
+#boton-new-entry {
+  background-color: #029ac4 !important;
+}
+
+#boton-new-entry:hover {
+  background-color: #2b2b2b !important;
+}
+
+.form-new-entry {
+  background-color: white;
+  padding: 2em;
+}
+.btn-search {
+  background-color: black !important;
+  color: white;
+}
+#results {
+  background-color: white !important;
+}
+
+.card-title a {
+  color: white !important;
+}
+
+.card-title a:hover {
+  text-decoration: none !important;
+}
+
+.btn-upload {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+#labelFile {
+  background-color: #2b2b2b;
+  color: #029ac4;
+  cursor: pointer;
+  padding: 0.5em;
+  width: 100%;
+}
+
+#labelFile:hover {
+  background-color: #029ac4;
+  color: white;
+}
