@@ -1,7 +1,7 @@
 .navbar {
     background-color: #2B2B2B !important;
 }
-#lolol, #ele {
+.dropdown-menu, .dropdown-item {
     background-color: #2B2B2B !important;
 }
 .navbar-brand:link, .navbar-brand:visited {

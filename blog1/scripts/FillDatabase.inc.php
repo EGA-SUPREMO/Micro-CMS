@@ -12,9 +12,9 @@ include_once 'app/CommentsRepo.inc.php';
 
 Conection::openConection();
 
-$number = 30;
+$number = 39;
 
-for ($users=0; $users < $number; $users++) {
+/*for ($users=0; $users < $number; $users++) {
 	$name = random(10);
 	$email = random(3) . '@' . random(3);
 	$password = password_hash('123456', PASSWORD_DEFAULT);
@@ -33,17 +33,19 @@ for ($entry=0; $entry < $number; $entry++) {
 	$idAuthor = rand(0,  $number-1);
 
 	EntriesRepo::insertEntry(Conection::getConection(), new Entry('', $idAuthor, $title, $text, '', 1));
-}
-for ($comment=0; $comment < $number; $comment++) {
+}*/
+
+for ($comment=0; $comment < 17; $comment++) {
+//for ($comment=0; $comment < $number; $comment++) {
 	$title = random(10);
 	$text = lorem();
 	$password = password_hash('123456', PASSWORD_DEFAULT);
 	$idAuthor = rand(0,  $number-1);
-	$idEntry = rand(0,  $number-1);
+	$idEntry = 44;
 
 	CommentsRepo::insertComment(Conection::getConection(), new Comment('', $idAuthor, $idEntry, $title, $text, '', 1));
+//}
 }
-
 function random($length) {
 	$characters = '0123456789abcdefghijklmnopqrstuvwxyz';
 	$randomString = '';

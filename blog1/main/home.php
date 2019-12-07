@@ -7,9 +7,9 @@ include_once 'templates/Navbar.inc.php';
 ?>
 <div class="container">
     <div class="jumbotron">
-        <h1>Pagina EXTRA OFICIAL DE EGA</h1>
+        <h1>A test Blog</h1>
         <p>
-            La mejor pagina jamas creada por el mejor programador html de la historia
+            The best test blog for show my skills
         </p>
     </div>
 </div>
@@ -20,13 +20,13 @@ include_once 'templates/Navbar.inc.php';
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            Busqueda
+                            Search
                         </div>
                         <div class="card-body">
                             <div class="form-group">
                                 <form class="form-inline" action="<?php echo URL_SEARCH; ?>" method='GET'>
-                                    <input class="form-control mr-sm-2" type="search" placeholder="Que buscas" aria-label="Search" name="q">
-                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="submit">Buscar</button>
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search ..." aria-label="Search" name="q">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="submit">Search</button>
                                 </form>
                             </div>
                         </div>

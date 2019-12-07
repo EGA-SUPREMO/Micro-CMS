@@ -44,17 +44,17 @@ class VerifyUsers {
         if($this -> isSet($name)) {
             $this -> name = $name;
         } else {
-            return 'Debes escribir un nombre.';
+            return 'Must choose a username.';
         }
         if(UsersRepo::existUnique($conection , 'name', $name)) {
-            return 'El nombre de usuario ya existe, usa otro, pls.';
+            return 'The username is already used.';
         }
         
         if(strlen($name)<4) {
-            return 'El nombre debe ser mayor a 4 cararteres, pls.';
+            return 'The username has to be more than 3 charaters long';
         }
         if(strlen($name)>24) {
-            return 'El nombre debe ser menor a 24 cararteres, pls.';
+            return 'The username has to be less than 25 charaters long';
         }
         
         return '';
@@ -64,11 +64,11 @@ class VerifyUsers {
         if($this -> isSet($email)) {
             $this -> email = $email;
         } else {
-            return 'Debes escribir un email.';
+            return 'Must choose a email address.';
         }
         
         if(UsersRepo::existUnique($conection , 'email', $email)) {
-            return 'El email ya existe, si olvidaste tu contrasena <a href="#">pulsa aqui<a> sino, usa otro, pls.';
+            return 'The email is already used, if you forgot your password <a href='.URL_RECOVER_PASSWORD.'>click here<a>.';
         }
         return '';
     }
@@ -76,16 +76,16 @@ class VerifyUsers {
     private function verifyPassword($password) {
         if($this -> isSet($password)) {
         } else {
-            return 'Debes escribir una contrasena.';
+            return 'Must choose a password.';
         }
         return '';
     }
     
     private function verifyPassword2($password, $password2) {
         if(!$this -> isSet($password2)) {
-            return 'Debes repetir tu contrasena, plis';
+            return 'Must confirm your password';
         } else if($password!==$password2) {
-            return 'Las contrasenas deben coincidir.';
+            return 'The passwords must be the same.';
         }
         $this->password = $password;
         

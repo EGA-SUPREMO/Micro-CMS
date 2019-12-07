@@ -28,11 +28,11 @@ class Verifier {
 		}
 		
 		if (strlen($title) > 255) {
-			return "This title has to be less than 255 charaters long.";
+			return "The title has to be less than 255 charaters long.";
 		}
 		
 		if (EntriesRepo :: existEntryByTitle($conection, $title)) {
-			return "This title is already used, please choose another.";
+			return "The title is already used, please choose another.";
 		}
 	}
 	

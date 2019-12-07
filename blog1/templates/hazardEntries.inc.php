@@ -22,7 +22,7 @@ include_once 'app/WriterEntries.inc.php';
 						<?php echo nl2br(WriterEntries::reduceText($nowEntry -> getText())); ?>
 					</p>
                     <div class="text-center">
-                        <a class="btn btn-primary" href=<?php echo URL_ENTRY . "/" . $nowEntry -> getUrl(); ?> role="button">Seguir leyendo</a>
+                        <a class="btn btn-primary" href=<?php echo URL_ENTRY . "/" . $nowEntry -> getUrl(); ?> role="button">Continue reading</a>
                     </div>
 				</div>
 			</div>

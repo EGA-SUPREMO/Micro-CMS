@@ -6,7 +6,7 @@ class Conection {
     public static function openConection() {
         if(!isset(self::$conection)) {
             try {
-                include_once 'config.inc.php';
+                include_once 'Config.inc.php';
                 
                 self::$conection = new PDO("mysql:host=". SVNAME ."; dbname=" . DBNAME, USERNAME, PASSWORD);
                 //self::$conection -> setAttribute(PDO::ATRR_ERRMODE, PDO::ERRMODE_EXCEPTION);

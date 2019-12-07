@@ -1,10 +1,10 @@
-<label>Nombre de usuario</label>
-<input type="text" class="form-control" name="name" autofocus required>
-<label>Email</label>
-<input type="email" class="form-control" name="email" required>
-<label>Contasena</label>
-<input type="password" class="form-control" name="password" required>
-<label>Repite tu contasena</label>
-<input type="password" class="form-control" name="password2" required>
+<input type="text" placeholder="Choose a username" class="form-control" name="name" autofocus required>
 <br>
-<button type="submit" class="btn btn-default btn-primary" name="submit">Registrarse</button>
+<input type="email" placeholder="Your email address" class="form-control" name="email" required>
+<br>
+<input type="password" placeholder="Choose a password" class="form-control" name="password" required>
+<br>
+<input type="password" placeholder="Confirm password" class="form-control" name="password2" required>
+<br>
+<br>
+<button type="submit" class="btn btn-default btn-primary" name="submit">Register</button>

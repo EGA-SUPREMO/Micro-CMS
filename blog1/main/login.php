@@ -30,11 +30,11 @@ include_once 'templates/Navbar.inc.php';
         <div class="col-md-6">
             <div class="card text-center">
                 <div class="card-header">
-                    Inicia secion
+                    Log in
                 </div>
                 <div class="card-body">
                     <form role="form" method="post" action="<?php echo URL_LOGIN?>">
-                        <h2>Introduce your information</h2>
+                        <h2>Log in to your account</h2>
                         <br>
                         <label class="sr-only" for="email">Email</label>
                         <input type="email" class="form-control" name="email" placeholder="Email" <?php

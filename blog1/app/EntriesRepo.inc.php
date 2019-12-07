@@ -24,7 +24,7 @@ class EntriesRepo {
 
 
                 } else {
-                    echo "No hay entries";
+                    echo "There is not entries";
                 }
             } catch (PDOException $exc) {
                 echo $exc->getTraceAsString();
@@ -37,7 +37,7 @@ class EntriesRepo {
 
         if (isset($conection)) {
             try {
-                include_once 'entry.inc.php';
+                include_once 'Entry.inc.php';
                 
                 $sql = "SELECT * FROM entries WHERE url=:url";
 
@@ -66,7 +66,7 @@ class EntriesRepo {
 
         if (isset($conection)) {
             try {
-                include_once 'entry.inc.php';
+                include_once 'Entry.inc.php';
                 
                 $sql = "SELECT * FROM entries WHERE id=:id";
 
@@ -95,7 +95,7 @@ class EntriesRepo {
 
         if (isset($conection)) {
             try {
-                include_once 'entry.inc.php';
+                include_once 'Entry.inc.php';
                 
                 $sql = "SELECT * FROM entries WHERE title=:title";
 
@@ -119,7 +119,7 @@ class EntriesRepo {
 
         if (isset($conection)) {
             try {
-                include_once 'entry.inc.php';
+                include_once 'Entry.inc.php';
                 
                 $sql = "SELECT * FROM entries ORDER BY RAND() LIMIT $limit";
 
@@ -259,7 +259,7 @@ class EntriesRepo {
                 $comand->bindParam(':id_author', $entry->getIdAuthor(), PDO::PARAM_STR);
                 $comand->bindParam(':title', $entry->getTitle(), PDO::PARAM_STR);
                 $comand->bindParam(':url', $entry->getUrl(), PDO::PARAM_STR);
-                $comand->bindParam(':content', $entry->getcontent(), PDO::PARAM_STR);
+                $comand->bindParam(':content', $entry->getText(), PDO::PARAM_STR);
                 $comand->bindParam(':active', $entry->isActive(), PDO::PARAM_STR);
 
                 $isInserted = $comand->execute();

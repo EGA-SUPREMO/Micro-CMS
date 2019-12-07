@@ -53,3 +53,4 @@ include_once 'templates/Navbar.inc.php';
 <?php
 include_once 'templates/EndPage.inc.php';
 ?>
+<script src= '<?php echo DIR_JS?>comments.js?3thh'></script>

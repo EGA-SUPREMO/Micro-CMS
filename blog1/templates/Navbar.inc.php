@@ -23,8 +23,8 @@ include_once 'app/ControlSession.inc.php';
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Services
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="lolol">
-                            <a class="dropdown-item" href="#" id="ele">Web</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Web</a>
                             <a class="dropdown-item" href="#">Apps</a>
                         </div>
                     </li>
@@ -32,7 +32,7 @@ include_once 'app/ControlSession.inc.php';
                         <a class="nav-link" href="#">Portafolio</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav auto">
                     <?php
                     if(ControlSession::isSessionStarted()) {
                         ?>

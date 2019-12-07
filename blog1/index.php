@@ -15,6 +15,8 @@ include_once 'app/PasswordRecoveryRepo.inc.php';
 include_once 'app/ControlSession.inc.php';
 include_once 'app/Redirect.inc.php';
 
+error_reporting(E_ERROR | E_PARSE);
+
 $componentes_url = parse_url($_SERVER['REQUEST_URI']);
 
 $path = $componentes_url['path'];

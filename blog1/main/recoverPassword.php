@@ -18,7 +18,7 @@ include_once 'templates/Navbar.inc.php';
                         <br>
                         <p>Introduce your email and we will send you an email which you will be able to reset your password</p>
                         <label class="sr-only" for="email">Email</label>
-                        <input type="email" class="form-control" name="email" <?php
+                        <input type="email" placeholder="Email" class="form-control" name="email" <?php
                             if(isset($_POST['submit']) && isset($_POST['email']) && empty($_POST['email'])) {
                                 echo 'value = "' . $_POST['email'] . '"';
                             }

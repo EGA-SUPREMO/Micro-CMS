@@ -27,7 +27,7 @@ include_once 'templates/Navbar.inc.php';
 ?>
 <div class="container">
     <div class="jumbotron">
-        <h1 class="text-center">Formulario de registro</h1>
+        <h1 class="text-center">Registration form</h1>
     </div>
 </div>
 
@@ -37,18 +37,18 @@ include_once 'templates/Navbar.inc.php';
             <div class="card">
                 <div class="card-header">
                     <h3>
-                        Intrucciones
+                        Instructions
                     </h3>
                 </div>
                 <div class="card-body">
                     <p class="text-justify">
-                        Para unirte debes poner tu nombre de usuario, email, contrasena, esta ultima es recomendado tener al menos un numero.
+                        To join you must enter your username, email, password, the password is recommended to have at least one number or symbol.
                     </p>
                     <br>
-                    <a href="<?php echo URL_LOGIN; ?>">Ya tienes cuenta?</a>
+                    <a href="<?php echo URL_LOGIN; ?>">Already have an account? Log in</a>
                     <br>
                     <br>
-                    <a href="<?php echo URL_RECOVER_PASSWORD; ?>">Olvidaste tu contrasena?</a>
+                    <a href="<?php echo URL_RECOVER_PASSWORD; ?>">Forgot your password?</a>
                     <br>
                     <br>
                 </div>
@@ -58,7 +58,7 @@ include_once 'templates/Navbar.inc.php';
             <div class="card">
                 <div class="card-header">
                     <h3>
-                        Intruduces tus datos
+                        Enter your information
                     </h3>
                 </div>
                 <div class="card-body">

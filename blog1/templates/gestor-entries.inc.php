@@ -64,7 +64,7 @@ Conection::closeConection();
 		<?php
 		} else {
 		?>
-			<h3 class="text-center">Todavía no has escrito ninguna entrada</h3>
+			<h3 class="text-center">You haven't written any entries yet</h3>
 			<br>
 			<br>
 		<?php

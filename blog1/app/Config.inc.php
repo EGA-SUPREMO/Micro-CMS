@@ -33,6 +33,6 @@ define('URL_SEARCH', URL_SV . 'search');
 define('URL_PROFILE', URL_SV . 'profile');
 
 
-define("DIR_CSS", URL_SV . "/css/");
-define("DIR_JS", URL_SV . "/js/");
+define("DIR_CSS", URL_SV . "css/");
+define("DIR_JS", URL_SV . "js/");
 define("DIR_ROOT", realpath(__DIR__."/.."));

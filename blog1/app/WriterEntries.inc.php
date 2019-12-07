@@ -33,18 +33,18 @@ class WriterEntries {
                     </div>
                     <div class="card-body text-justify">
                         <?php
-                        echo $entry -> getDate();
-                        echo $entry -> getUrl();
+                        echo "<small>".$entry -> getDate() . "</small><br>";
                         echo nl2br(self::reduceText($entry -> getText()));
                         ?>
                         <br>
                         <div class="text-center">
-                            <a class="btn btn-primary" href=<?php echo URL_ENTRY . "/" . $entry -> getUrl(); ?> role="button">Seguir leyendo</a>
+                            <a class="btn btn-primary" href=<?php echo URL_ENTRY . "/" . $entry -> getUrl(); ?> role="button">Continue reading</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <br>
         <?php
     }
     public static function showSearchEntries($entry) {
@@ -63,12 +63,12 @@ class WriterEntries {
                 </div>
                 <div class="card-body text-justify">
                     <?php
-                    echo $entry -> getDate();
+                    echo "<small>".$entry -> getDate() . "</small><br>";
                     echo nl2br(self::reduceText($entry -> getText()));
                     ?>
                     <br>
                     <div class="text-center">
-                        <a class="btn btn-primary" href=<?php echo URL_ENTRY . "/" . $entry -> getUrl(); ?> role="button">Seguir leyendo</a>
+                        <a class="btn btn-primary" href=<?php echo URL_ENTRY . "/" . $entry -> getUrl(); ?> role="button">Continue reading</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@ class WriterEntries {
                     ?>
                     <br>
                     <div class="text-center">
-                        <a class="btn btn-primary" href=<?php echo URL_ENTRY . "/" . $entry -> getUrl(); ?> role="button">Seguir leyendo</a>
+                        <a class="btn btn-primary" href=<?php echo URL_ENTRY . "/" . $entry -> getUrl(); ?> role="button">Continue reading</a>
                     </div>
                 </div>
             </div>
