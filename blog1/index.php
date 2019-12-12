@@ -1,4 +1,7 @@
 <?php
+session_start();
+
+error_reporting(E_ERROR | E_PARSE);
 
 include_once 'app/Config.inc.php';
 include_once 'app/Conection.inc.php';
@@ -15,9 +18,7 @@ include_once 'app/PasswordRecoveryRepo.inc.php';
 include_once 'app/ControlSession.inc.php';
 include_once 'app/Redirect.inc.php';
 
-error_reporting(E_ERROR | E_PARSE);
-
-$componentes_url = parse_url($_SERVER['REQUEST_URI']);
+$componentes_url = parse_url($_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);
 
 $path = $componentes_url['path'];
 
@@ -28,7 +29,7 @@ $pathParts = array_slice($pathParts, 0);
 $pathElected = 'main/404.php';
 $title = 'Blog';
 
-if ($pathParts[0] == 'blog') {
+if ($pathParts[0] == 'testtoshowskills.000webhostapp.com') {
 	if (count($pathParts) == 1) {
         $pathElected = 'main/home.php';
     } else if(count($pathParts)==2) {
@@ -92,7 +93,7 @@ if ($pathParts[0] == 'blog') {
 
             	Conection::openConection();
             	$entry = EntriesRepo::getEntriesByUrl(Conection::getConection(), $pathParts[2]);
-
+            	
             	if($entry != null) {
             		$author = UsersRepo::getUserByString(Conection::getConection(), 'id', $entry -> getIdAuthor());
             		$hazard_entries = EntriesRepo::getEntriesByHazard(Conection::getConection(), 3);

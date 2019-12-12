@@ -135,7 +135,7 @@ class EntriesRepo {
                                 $row['created_date'], $row['active']);
                 	}
                 } else {
-                    echo "No existe la entrada.";
+                    echo "Error.";
                 }
             } catch (PDOException $ex) {
                 echo 'ERROR ' . $ex->getMessage();
