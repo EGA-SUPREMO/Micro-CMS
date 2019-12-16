@@ -1,4 +1,5 @@
-This a functional blog where you can sign up, log in or forget about password and change the profile picture, create, edit or delete entries and search for entries.
+# Functional blog
+This a functional blog where you can sign up, log in or forget about password and change the profile picture, create, edit or delete entries and search them.
 
 This was made with Bootstrap, php, javascript, mysql and jquery.
 
