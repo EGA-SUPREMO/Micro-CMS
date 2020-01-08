@@ -7,7 +7,11 @@ Here is a link to a live version: https://testtoshowskills.000webhostapp.com/
 
 ## Know issues:
 
-When you put in the url a the name of entry that doesn't exists it should show the 404 error page but instead it shows an ugly error in really big letters
+When you put in the url a the name of entry that doesn't exists it should show the 404 error page but instead it shows an ugly error in really big letters, example: https://testtoshowskills.000webhostapp.com/entry/bug+this
+
+## Todo:
+
+Put a small icon each section and main button, example: in the section search put a magnifying glass.
 
 ## License
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
