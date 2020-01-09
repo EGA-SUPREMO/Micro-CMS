@@ -1,7 +1,7 @@
 # Functional blog
 This a functional blog where you can sign up, log in or forget about password and change the profile picture, create, edit or delete entries and search them by title, author or content.
 
-This was made with Bootstrap 4, PHP, Javascript, MySQL and Jquery.
+This was made with Bootstrap 4, PHP, Javascript, CSS, MySQL and Jquery.
 
 Here is a link to a live version: https://testtoshowskills.000webhostapp.com/
 
