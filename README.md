@@ -3,13 +3,13 @@ This a functional blog where you can sign up, log in or forget about password an
 
 This was made with Bootstrap 4, PHP, Javascript, CSS, MySQL and Jquery.
 
-Here is a link to a live version: https://testtoshowskills.000webhostapp.com/
+Link to a live version: https://testtoshowskills.000webhostapp.com/
 
 ## Know issues:
 
-* When you put in the url a the name of entry that doesn't exists it should show the 404 error page but instead it shows an ugly error in really big letters, example: https://testtoshowskills.000webhostapp.com/entry/bug+this
+* When you put in the url a the name of entry that doesn't exists it should show the 404 error page but instead it shows an error with big letters, [example](https://testtoshowskills.000webhostapp.com/entry/bug).
 
-* Some places can be used for cross-site scripting and there is very little chance of using SQL injection.
+* Some places can be used for cross-site scripting and there is very little chance that it can be used for SQL injection.
 
 ## Todo:
 
