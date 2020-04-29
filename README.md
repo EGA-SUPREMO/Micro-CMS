@@ -1,3 +1,6 @@
+![Score](https://www.code-inspector.com/project/7450/score/svg)
+![Grade](https://www.code-inspector.com/project/7450/status/svg)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 # PHP Blog
 This a functional blog where you can sign up, log in or forget about password and change the profile picture, create, edit or delete entries and search them by title, author or content.
 
