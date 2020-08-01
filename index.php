@@ -29,7 +29,7 @@ $pathParts = array_slice($pathParts, 0);
 $pathElected = 'main/404.php';
 $title = 'Blog';
 
-if ($pathParts[0] == 'testtoshowskills.000webhostapp.com') {
+if ($pathParts[0] == 'https://micro-cms-ega.herokuapp.com/') {
 	if (count($pathParts) == 1) {
         $pathElected = 'main/home.php';
     } else if(count($pathParts)==2) {

@@ -6,7 +6,7 @@ define('PASSWORD', '123456');
 define('USERNAME', 'id11713550_lg');
 
 
-define('URL_SV', 'https://testtoshowskills.000webhostapp.com/');
+define('URL_SV', 'https://micro-cms-ega.herokuapp.com/');
 define('URL_REGISTER', URL_SV . 'register');
 define('URL_REGISTER_CORRECT', URL_SV . 'registerCorrect');
 define('URL_LOGIN', URL_SV . 'login');
