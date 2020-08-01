@@ -28,9 +28,8 @@ $pathParts = array_slice($pathParts, 0);
 
 $pathElected = 'main/404.php';
 $title = 'Blog';
-echo $pathParts[0];
+
 if ($pathParts[0] == 'micro-cms-ega.herokuapp.com') {
-    echo "testoing";
 	if (count($pathParts) == 1) {
         $pathElected = 'main/home.php';
     } else if(count($pathParts)==2) {
