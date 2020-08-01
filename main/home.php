@@ -7,9 +7,9 @@ include_once 'templates/Navbar.inc.php';
 ?>
 <div class="container">
     <div class="jumbotron">
-        <h1>A test Blog</h1>
+        <h1>Complete Blog</h1>
         <p>
-            The best test blog for show my skills
+            A blog where you can publish many great things!
         </p>
     </div>
 </div>

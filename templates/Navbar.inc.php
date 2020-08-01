@@ -8,7 +8,7 @@ include_once 'app/ControlSession.inc.php';
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="navbar-header">
-                <a class="navbar-brand" href='<?php echo URL_SV?>'>La Grandega Ale</a>
+                <a class="navbar-brand" href='<?php echo URL_SV?>'>Micro CMS</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"  aria-label="Toggle navigation">
                     <span class="sr-only">This button display the navigetion area</span>
                     <span class="navbar-toggler-icon"></span>
@@ -17,7 +17,7 @@ include_once 'app/ControlSession.inc.php';
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="navbar-item active">
-                        <a class="nav-link" href='<?php echo URL_SV?>'>Main page</a>
+                        <a class="nav-link" href='<?php echo URL_SV?>'>Home</a>
                     </li>
                     <li class="navbar-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
