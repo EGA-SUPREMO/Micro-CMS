@@ -27,10 +27,10 @@ include_once 'templates/Navbar.inc.php';
                                 <div class="row">
                                     <form class="form-inline" action="<?php echo URL_SEARCH; ?>" method='GET'>
                                         <div class="col-md-8 col-sm-12">
-                                            <input class="form-control" type="search" placeholder="Search ..." aria-label="Search" name="q">
+                                            <input class="form-control mr-sm-2" type="search" placeholder="Search ..." aria-label="Search" name="q">
                                         </div>
                                         <div class="col-md-4 col-sm-12">
-                                            <button class="btn btn-outline-success" type="submit" name="submit">Search</button>
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="submit">Search</button>
                                         </div>
                                     </form>
                                 </div>
