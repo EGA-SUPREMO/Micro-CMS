@@ -3,6 +3,8 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 # PHP Blog
 A blog made from scratch, useful as a template for future projects!
+![](https://github.com/EGA-SUPREMO/Portafolio/raw/master/assets/img/portfolio/cabin.png)
+
 ---
 This a fully functional in which you:
 
