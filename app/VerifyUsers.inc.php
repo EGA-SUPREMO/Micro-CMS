@@ -33,11 +33,7 @@ class VerifyUsers {
     }
     
     private function isSet($var) {
-        if(isset($var) && empty($var)) {
-            return false;
-        } else {
-            return true;
-        }
+        return (isset($var) && empty($var));
     }
     
     private function verifyName($name, $conection) {
