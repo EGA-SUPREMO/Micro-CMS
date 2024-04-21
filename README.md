@@ -1,6 +1,5 @@
-![Score](https://www.code-inspector.com/project/7450/score/svg)
-![Grade](https://www.code-inspector.com/project/7450/status/svg)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 # PHP Blog
 A blog made from scratch, useful as a template for future projects!
 ![](https://github.com/EGA-SUPREMO/Portafolio/raw/master/assets/img/portfolio/cabin.png)
@@ -12,8 +11,6 @@ This a fully functional in which you:
 * Change the profile picture.
 * Create, edit or delete entries.
 * Search them by title, author or content.
-
-[Link to a live version](https://testtoshowskills.000webhostapp.com/)
 
 Made with Bootstrap 4, PHP, Javascript, CSS, MySQL and JQuery.
 
