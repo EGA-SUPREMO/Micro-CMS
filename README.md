@@ -1,16 +1,16 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-# PHP Blog
+# Micro CMS
 A blog made from scratch, useful as a template for future projects!
 ![](https://github.com/EGA-SUPREMO/Portafolio/raw/master/assets/img/portfolio/cabin.png)
 
 ---
 This a fully functional in which you:
 
-* Can sign up, log in or forget about the password.
+* Can sign up, log in or password recovery.
 * Change the profile picture.
 * Create, edit or delete entries.
-* Search them by title, author or content.
+* Search them by title, author or content to easily navigate and manage their entries.
 
 Made with Bootstrap 4, PHP, Javascript, CSS, MySQL and JQuery.
 
